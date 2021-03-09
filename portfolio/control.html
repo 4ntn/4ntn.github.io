@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=es-ES>
+  <head>
+    <meta charset="utf-8">
+    <title>Control mediante aprendizaje iterativo - Porfolio - Antón Casas Román</title>
+    <meta name="author" content="Antón Casas Román">
+    <meta name="description" content="Página personal de Antón Casas Román">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon16.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/base.css">
+  </head>
+  
+  <body>
+    <header>
+      <a href="../index.html">Antón Casas Román</a>
+    </header>
+    <nav>
+      <ul class="global">
+        <li><a href="../index.html">Presentación</a></li>
+        <li><a href="../portfolio.html" class="p_actual">Porfolio</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+      </ul>
+      <ul class="local">
+        <li><a class="p_actual">Control mediante aprendizaje iterativo</a></li>
+        <li><a href="grafeno.html">Supercondensadores de grafeno</a></li>
+        <li><a href="this.html">Esta página web</a></li>
+        <li><a href="vehiculos.html">Control de crucero adaptativo</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h1>Control mediante aprendizaje iterativo</h1>
+        <p>Este fue mi trabajo fin de máster. Lo dirigió el Dr. José Ángel Acosta Rodríguez, y formó parte del proyecto europeo GRIFFIN.</p>
+        <p>Consiste en la implementación en Matlab de un algoritmo de control predictivo en bucle abierto. El algoritmo mejora las ejecuciones sucesivas de un proceso repetitivo en base a la información recabada en las iteraciones previas.</p>
+        <p>Si te interesa leerlo, enlazaré en esta misma página la memoria cuando se publique en abierto en la biblioteca de la Universidad de Sevilla.</p>
+        <h3>Resumen</h3>
+        <p>En este trabajo se presentan dos métodos de control en bucle abierto por aprendizaje iterativo centrados en procesos de optimización. Dada una trayectoria de referencia, el control mejora en cada ejecución el desempeño del sistema mediante el uso de los datos recogidos en ejecuciones anteriores. Los sistemas de control utilizan métodos óptimos tanto en la estimación del error en las trayectorias como en el cálculo de las señales de entrada, e incluyen restricciones en las entradas y en las salidas para este segundo proceso. Se han implementado dos procesos de obtención de modelos lineales a partir de sistemas reales, uno de ellos deducido en su totalidad de las ecuaciones de equilibrio dinámico del sistema, y el otro basado en técnicas de identificación de sistemas. Se han probado ambos algoritmos de control sobre el modelo simulable de un péndulo sobre un carro móvil, que es un sistema altamente no lineal y subactuado. En ambos casos el sistema de control aprende satisfactoriamente y consigue realizar el seguimiento de trayectoria en bucle abierto. Por último, se ha realizado una comparación de los dos métodos de control.</p>
+      </article>
+    </main>
+  </body>
+</html>
