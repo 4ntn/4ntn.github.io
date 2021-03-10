@@ -1,10 +1,9 @@
 html {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: #F43FCC;
-  background-color: #06222A;
+  color: #3effd5;
+  background-color: #0c2028;
 }
-
 @media (min-width: 100vh) {
   body {
     display: flex;
@@ -45,7 +44,6 @@ html {
     margin: 2%;
     width: calc(55% + 11rem);
   }
-  
   @media (max-width: 180vh) {
     main {
       flex: 12;
@@ -59,7 +57,6 @@ html {
     }
   }
 }
-
 @media (max-width: 99.99vh) {
   header {
     font-weight: 200;
@@ -79,73 +76,61 @@ html {
     left: calc(-2.1em + 20px);
   }
 }
-
 ol > li {
   margin-top: 1em;
 }
-
 ul li + li {
   margin-top: 0.5rem;
 }
-
 ul > li {
   list-style-type: "· ";
   margin-left: 1rem;
 }
-
 .global > li {
   list-style-type: none;
 }
-
 nav ul {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-
 .global li a, .global li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
 }
-
 .local li {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   margin-right: 0.25rem;
 }
-
 .global {
-  color: #06222A;
-  background-color: #F43FCC;
+  color: #0c2028;
+  background-color: #3effd5;
 }
 .local {
-  border: solid 2px #F43FCC;
+  border: solid 2px #3effd5;
 }
 .empty {
   border: none;
 }
-
 a {
-  color: #F43FCC;
+  color: #3effd5;
 }
 a:hover {
   text-decoration: none;
 }
-
 .global a {
   text-decoration: none;
-  color: #06222A;
+  color: #0c2028;
 }
 .global a:hover, .global .p_actual {
-  color: #F43FCC;
-  background-color: #06222A;
+  color: #3effd5;
+  background-color: #0c2028;
 }
-
 header > a:hover {
-  color: #06222A;
-  background-color: #F43FCC;
+  color: #0c2028;
+  background-color: #3effd5;
 }
-
 a:active, header > a:active, .global a:active {
-  color: yellow;
+  color: #cccc00;
 }
