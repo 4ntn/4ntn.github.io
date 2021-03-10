@@ -55,9 +55,9 @@
         <p>Con dos colores ha sido suficiente para separar con claridad los cuatro elementos principales de la página sin sacrificar la estética.</p>
         <p>Si bien hay dos colores más que puedes encontrar si buscas bien, considero que no rompen la sensación de estar viendo una página con solo dos colores. Estos son el color de activación al hacer clic sobre un enlace, y el color del texto seleccionado.</p>
         <p>Con esto, considero que, en el apartado de diseño, quedaron cumplidos los objetivos de crear una página bonita y minimalista; y tan solo parcialmente el objetivo de que fuera fantasiosa.</p>
-        <h3>Scripts</h3>
+        <h3>JavaScript</h3>
         <p>Como he adelantado más arriba, ¡no hay scripts!</p>
-        <p>Y la razón es muy simple: La página no los necesita.</p>
+        <p>Y la razón es muy simple: La página no los necesita. Podría llenar la página con menús ocultables, elementos interactivos, etc. Y conseguiría triplicar el tamaño de la página y hacerla mucho más pesada, sin aportar ni funcionalidad ni contenido.</p>
       </article>
     </main>
   </body>
