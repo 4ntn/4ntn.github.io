@@ -68,13 +68,12 @@ html {
   }
   .global > li {
     flex: 1;
-    text-align: center;
     font-size: calc(0.2rem + 3vw);
   }
   .global li + li:before {
     content: "|";
     position: relative;
-    left: -25%;
+    left: calc(-2.1em + 20px);
   }
 }
 ol > li {
