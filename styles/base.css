@@ -4,7 +4,7 @@ html {
   color: #3effd5;
   background-color: #0c2028;
 }
-@media (min-width: 100vh) {
+@media (min-width: 50em) {
   body {
     display: flex;
     direction: rtl;
@@ -44,7 +44,7 @@ html {
     margin: 2%;
     width: calc(55% + 11rem);
   }
-  @media (max-width: 180vh) {
+  @media (max-width: 90em) {
     main {
       flex: 12;
     }
@@ -57,7 +57,7 @@ html {
     }
   }
 }
-@media (max-width: 99.99vh) {
+@media (max-width: 49.99em) {
   header {
     font-weight: 200;
     font-size: 9.25vw;
