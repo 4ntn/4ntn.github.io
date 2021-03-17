@@ -4,7 +4,7 @@ html {
   color: #3effd5;
   background-color: #0c2028;
 }
-@media (min-width: 50em) and (min-width: 60vh) {
+@media (min-width: 50em) and (min-width: 70vh) {
   body {
     display: flex;
     direction: rtl;
@@ -57,7 +57,7 @@ html {
     }
   }
 }
-@media (max-width: 49.99em), (max-width: 59.99vh) {
+@media (max-width: 49.99em), (max-width: 69.99vh) {
   header {
     font-weight: 200;
     font-size: 9.25vw;
